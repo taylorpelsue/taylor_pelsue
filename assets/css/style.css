@@ -1,0 +1,39 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+#indexPic{
+    width: 100%;
+    background-image: url("../images/taylor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+#indexBanner {
+   
+    font-family: Cinzel;
+}
+
+h1 {
+    font-size: 51px;
+}
+
+#name {
+    margin-left: 15%;
+    margin-top: 20%;
+    color: white;
+    text-align: center;
+    width: 400px;
+}
+
+hr {
+    background-color: white;
+}
+
+#tag {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: Dancing Script;
+}
