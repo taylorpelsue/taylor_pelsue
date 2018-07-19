@@ -133,6 +133,7 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
     
     #indexPic {
         background-image: none;
+        padding-top: 0;
     }
 
     .img1 {
