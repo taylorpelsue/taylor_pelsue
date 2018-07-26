@@ -12,8 +12,8 @@ body {
     background-image: url("../images/taylor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .btn-primary {
@@ -35,6 +35,11 @@ h1 {
     color: white;
     text-align: center;
     width: 400px;
+}
+
+#arrows {
+    margin-left: 37%;
+    margin-top: 15%;
 }
 
 #name2 {
@@ -137,7 +142,7 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
 
 @media only screen and (max-width: 570px) {
     
-    #indexPic {
+    #indexBanner {
         background-image: none;
         padding-top: 0;
     }
