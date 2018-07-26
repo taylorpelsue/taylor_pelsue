@@ -11,9 +11,16 @@
     <!-- Tab Image -->
     <link rel="icon" href="assets/images/t.png">
 
-    <!-- Linking in Bootstrap -->
+    <!-- Linking jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Linking Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+
+    <!-- Linking Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
     <!-- Linking in Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -23,9 +30,6 @@
 
     <!-- Google Font: "Dancing Script"-->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-
-    <!-- Linking in jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Linking in JavaScript -->
     <script src="assets/javascript/portfolio.js"></script>
@@ -56,15 +60,51 @@
                     <p id="tag">a fresh mindset in coding & design</p>
 
                 </div>
+                <div id="arrows">
 
-            </div>
-            <div id="arrows">
-                <a href=#test>
-                    <img src="assets/images/arrows.png" width="365px" class="arrowBtn" alt="Progress Arrows">
-                </a>
+                    <form action="#navBar">
+                        <button class="btn btn-primary" id="forwardBtn" type="submit">
+                            See What I Can Do!
+                            <br>
+                            <img id="arrowspng" src="assets/images/arrows.png" width="80px" class="arrowBtn" alt="Progress Arrows">
+                        </button>
+                    </form>
+
+                </div>
             </div>
         </div>
     </div>
+
+    <nav id="navBar" class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#indexBanner">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Portfolio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="container">
         <div class="row">
