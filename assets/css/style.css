@@ -1,5 +1,7 @@
 body {
     background-image: url("../images/background.png");
+    background-attachment: fixed;
+
 }
 
 .img1 {
@@ -11,8 +13,8 @@ body {
     background-image: url("../images/taylor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 7%;
-    padding-bottom: 10%;
+    padding-top: 9%;
+    padding-bottom: 15%;
 }
 
 .btn-primary {
@@ -30,7 +32,7 @@ h1 {
 
 #name1 {
     margin-left: 7.5vw;
-    margin-top: 20%;
+    margin-top: 16%;
     color: white;
     text-align: center;
     width: 400px;
@@ -44,7 +46,7 @@ h1 {
     border-style: solid;
     border-width: 1px;
     border-color: white;
-    margin-top: 15%;
+    margin-top: 6%;
     margin-left: 13vw;
     color: white;
     padding: 2%;
@@ -96,13 +98,93 @@ hr {
     font-family: Dancing Script;
 }
 
+.portfolio {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 1%;
+}
+
+.portpics {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#bobs {
+    background-image: url("../images/bobsburgers.jpg");
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+#bobs:hover {
+    background-image: url("../images/bobshover.jpg");
+}
+
+#toHangman {
+    opacity: 0;
+}
+
+#dbz {
+    background-image: url("../images/goku.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+#dbz:hover {
+    background-image: url("../images/gokuhover.jpg");
+}
+
+#toRPG {
+    opacity: 0;
+}
+
+#dory {
+    background-image: url("../images/dory.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+#dory:hover {
+    background-image: url("../images/doryhover.jpg");
+}
+
+
+/* second row in portfolio */
+.portfolio2 {
+    margin-top: 0;
+    margin-bottom: 3%;
+    padding-left: 1%;
+}
+/* 
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: hidden;
+} */
+
 #hangman {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
 }
 
-#hangman-iframe {
+#rpg {
+   position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; 
+}
+
+.iframe {
     position: absolute;
     top: 0;
     left: 0;
