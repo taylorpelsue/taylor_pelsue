@@ -10,6 +10,7 @@ body {
 
 #indexBanner {
     font-family: Cinzel;
+    height: 100%;
     background-image: url("../images/taylor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
