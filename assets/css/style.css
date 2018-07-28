@@ -1,13 +1,14 @@
 html, body {
     background-image: url("../images/background.png");
     background-attachment: fixed;
-    height: 100%;
+    min-height: 100%;
 
 }
 
 .img1 {
     display: none;
 }
+
 
 #indexPic {
     height: 100%;
@@ -90,7 +91,6 @@ a:link {text-decoration: none; color: white;}
     position: sticky;
     top: 0;
     z-index: 1;
- 
 }
 
 hr {
