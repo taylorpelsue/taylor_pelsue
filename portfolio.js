@@ -25,18 +25,18 @@ $(document).ready(function () {
 
     });
     // For smooth scrolling
-    $("#forwardBtn").on('click', function (event) {
+    $("#toTrivia").on('click', function (event) {
 
         $('html, body').animate({
-            scrollTop: $("#navBar").offset().top
+            scrollTop: $("#trivia").offset().top
         }, 'slow');
 
     });
     // For smooth scrolling
-    $("#forwardBtn").on('click', function (event) {
+    $("#toRPS").on('click', function (event) {
 
         $('html, body').animate({
-            scrollTop: $("#navBar").offset().top
+            scrollTop: $("#rps").offset().top
         }, 'slow');
 
     });

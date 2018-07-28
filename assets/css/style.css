@@ -100,8 +100,9 @@ hr {
 
 .portfolio {
     margin-top: 3%;
-    margin-bottom: 3%;
     padding-left: 1%;
+    padding-right: 1%;
+
 }
 
 .portpics {
@@ -133,6 +134,7 @@ hr {
     height: 100%;
     background-repeat: no-repeat;
     transition: 0.3s;
+
 }
 
 #dbz:hover {
@@ -156,33 +158,52 @@ hr {
     background-image: url("../images/doryhover.jpg");
 }
 
+#toTrivia {
+    opacity: 0;
+}
 
 /* second row in portfolio */
 .portfolio2 {
     margin-top: 0;
     margin-bottom: 3%;
-    padding-left: 1%;
-}
-/* 
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    overflow-x: hidden;
-} */
 
+}
+
+#rockps {
+    background-image: url("../images/rock.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+#toRPS {
+    opacity: 0;
+}
+/* end 2nd row of portfolio */
+
+/* external projects */
 #hangman {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
+    margin-bottom: 3%;
 }
 
 #rpg {
    position: relative;
     overflow: hidden;
     padding-top: 56.25%; 
+    margin-bottom: 3%;
 }
+
+#trivia {
+    position: relative;
+     overflow: hidden;
+     padding-top: 56.25%; 
+     margin-bottom: 3%;
+ }
 
 .iframe {
     position: absolute;
@@ -192,6 +213,7 @@ hr {
     height: 100%;
     border: 0;
 }
+/* end external projects */
 
 /* Media Query for Mobile Devices */
 
