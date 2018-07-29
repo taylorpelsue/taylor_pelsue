@@ -104,9 +104,9 @@ hr {
 }
 
 .portfolio {
-    margin-top: 3%;
     padding-left: 1%;
     padding-right: 1%;
+    overflow: hidden;
 
 }
 
@@ -136,7 +136,6 @@ hr {
     background-image: url("../images/goku.jpg");
     background-size: 100%;
     width: 100%;
-    height: 100%;
     background-repeat: no-repeat;
     transition: 0.3s;
 
@@ -154,7 +153,6 @@ hr {
     background-image: url("../images/dory.jpg");
     background-size: 100%;
     width: 100%;
-    height: 100%;
     background-repeat: no-repeat;
     transition: 0.3s;
 }
@@ -171,16 +169,17 @@ hr {
 .portfolio2 {
     margin-top: 0;
     margin-bottom: 3%;
-
 }
 
-#rockps {
-    background-image: url("../images/rock.jpg");
+#multiplayer {
+    background-image: url("../images/multiplayer.png");
     background-size: 100%;
-    width: 100%;
-    height: 100%;
     background-repeat: no-repeat;
     transition: 0.3s;
+}
+
+#multiplayer:hover {
+    background-image: url("../images/multiplayerhover.jpg");
 }
 
 #toRPS {
