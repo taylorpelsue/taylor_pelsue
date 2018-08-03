@@ -1,6 +1,7 @@
 html, body {
     background-image: url("../images/background.png");
     background-attachment: fixed;
+    cursor: url("../images/cursorcat.png"), auto;
 }
 
 .img1 {
@@ -60,6 +61,10 @@ h1 {
     font-size: 134%;
 }
 
+#forwardBtn:hover {
+    cursor: url("../images/cursorpaw.png"), auto;
+}
+
 a:link {text-decoration: none; color: white;}
 
 .nav-link {
@@ -71,6 +76,8 @@ a:link {text-decoration: none; color: white;}
 
 .nav-link:hover {
     color: rgb(255, 0, 191);
+    cursor: url("../images/cursorpaw.png"), auto;
+
 }
 
 #arrowspng {
@@ -125,6 +132,10 @@ hr {
     opacity: 0;
 }
 
+.portpics#forwardBtn:hover {
+    cursor: url("../images/cursorpaw.png"), auto;
+}
+
 #bobs {
     background-image: url("../images/bobsburgers.jpg");
     background-size: 100%;
@@ -134,6 +145,7 @@ hr {
 
 #bobs:hover {
     background-image: url("../images/bobshover.jpg");
+    cursor: url("../images/cursorpaw.png"), auto;
 }
 
 #toHangman {
@@ -151,6 +163,7 @@ hr {
 
 #dbz:hover {
     background-image: url("../images/gokuhover.jpg");
+    cursor: url("../images/cursorpaw.png"), auto;
 }
 
 #toRPG {
@@ -167,6 +180,7 @@ hr {
 
 #dory:hover {
     background-image: url("../images/doryhover.jpg");
+    cursor: url("../images/cursorpaw.png"), auto;
 }
 
 #toTrivia {
@@ -257,16 +271,28 @@ hr {
     width: 50px;
 }
 
+#linkedin#forwardBtn:hover {
+    cursor: url("../images/cursorpaw.png"), auto;
+}
+
 #github {
     margin-top: 3%;
     width: 50px;
     margin-left: 5%;
 }
 
+#github#forwardBtn:hover {
+    cursor: url("../images/cursorpaw.png"), auto;
+}
+
 #stack {
     margin-top: 3%;
     width: 50px;
     margin-left: 5%;
+}
+
+#stack#forwardBtn:hover {
+    cursor: url("../images/cursorpaw.png"), auto;
 }
 
 #copyright {
