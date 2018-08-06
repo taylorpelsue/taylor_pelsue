@@ -1,7 +1,7 @@
 html, body {
     background-image: url("../images/background.png");
     background-attachment: fixed;
-    cursor: url("../images/cursorcat.png"), auto;
+
 }
 
 .img1 {
@@ -9,9 +9,9 @@ html, body {
 }
 
 
-#indexPic {
+/* #indexPic {
     height: 100%;
-}
+} */
 
 #indexBanner {
     font-family: Cinzel;
@@ -20,8 +20,8 @@ html, body {
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
-    padding-top: 9%;
-    padding-bottom: 15%;
+    /* padding-top: 9%;
+    padding-bottom: 15%; */
 }
 
 .btn-primary {
@@ -39,7 +39,7 @@ h1 {
 
 #name1 {
     margin-left: 8.5vw;
-    margin-top: 6vh;
+    margin-top: 28vh;
     color: white;
     text-align: center;
     width: 400px;
@@ -61,10 +61,6 @@ h1 {
     font-size: 134%;
 }
 
-#forwardBtn:hover {
-    cursor: url("../images/cursorpaw.png"), auto;
-}
-
 a:link {text-decoration: none; color: white;}
 
 .nav-link {
@@ -76,7 +72,29 @@ a:link {text-decoration: none; color: white;}
 
 .nav-link:hover {
     color: rgb(255, 0, 191);
-    cursor: url("../images/cursorpaw.png"), auto;
+
+}
+
+#pawBtn {
+    background-image: url("../images/cursorpaw.png");
+    background-repeat: no-repeat;
+    background-color: none;
+    width: 4vw;
+    height: 4vh;
+
+}
+
+#paw {
+    margin-left: 148vh;
+    width: 7vh;
+    bottom: 0;
+    background-size: 100%;
+    width: 100%;
+}
+
+#paw:hover {
+
+    background-image: url("../images/pinkpaw.png");
 
 }
 
@@ -118,34 +136,33 @@ hr {
     font-family: Dancing Script;
 }
 
+/* #portfolio {
+    height: 91vh;
+} */
+
 .portfolio {
-    padding-left: 1%;
-    padding-right: 1%;
+    /* padding-left: 1%;
+    padding-right: 1%; */
     overflow: hidden;
     background-size: cover;
 
 }
 
 .portpics {
-    width: 100%;
-    height: 100%;
+    width: 45.5vw;
+    height: 45.5vh;
     opacity: 0;
-}
-
-.portpics#forwardBtn:hover {
-    cursor: url("../images/cursorpaw.png"), auto;
 }
 
 #bobs {
     background-image: url("../images/bobsburgers.jpg");
-    background-size: 100%;
+    background-size: 33.3vw;
     background-repeat: no-repeat;
     transition: 0.3s;
 }
 
 #bobs:hover {
     background-image: url("../images/bobshover.jpg");
-    cursor: url("../images/cursorpaw.png"), auto;
 }
 
 #toHangman {
@@ -154,8 +171,7 @@ hr {
 
 #dbz {
     background-image: url("../images/goku.jpg");
-    background-size: 100%;
-    width: 100%;
+    background-size: 33.3vw;
     background-repeat: no-repeat;
     transition: 0.3s;
 
@@ -163,7 +179,6 @@ hr {
 
 #dbz:hover {
     background-image: url("../images/gokuhover.jpg");
-    cursor: url("../images/cursorpaw.png"), auto;
 }
 
 #toRPG {
@@ -172,15 +187,13 @@ hr {
 
 #dory {
     background-image: url("../images/dory.jpg");
-    background-size: 100%;
-    width: 100%;
+    background-size: 33.3vw;
     background-repeat: no-repeat;
     transition: 0.3s;
 }
 
 #dory:hover {
     background-image: url("../images/doryhover.jpg");
-    cursor: url("../images/cursorpaw.png"), auto;
 }
 
 #toTrivia {
@@ -195,7 +208,7 @@ hr {
 
 #multiplayer {
     background-image: url("../images/multiplayer.png");
-    background-size: 100%;
+    background-size: 33.3vw;
     background-repeat: no-repeat;
     transition: 0.3s;
 }
@@ -205,6 +218,34 @@ hr {
 }
 
 #toRPS {
+    opacity: 0;
+}
+
+#gif {
+    background-image: url("../images/tyrion.gif");
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+#gif:hover {
+    background-image: url("../images/tyrion.jpg");
+}
+
+#toAPI {
+    opacity: 0;
+}
+
+#node {
+    background-image: url("../images/cust.png");
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+#node:hover {
+    background-image: url("../images/custhover.png");
+}
+
+#toBamazon {
     opacity: 0;
 }
 
@@ -271,28 +312,16 @@ hr {
     width: 50px;
 }
 
-#linkedin:hover {
-    cursor: url("../images/cursorpaw.png"), auto;
-}
-
 #github {
   
     width: 50px;
     margin-left: 5%;
 }
 
-#github:hover {
-    cursor: url("../images/cursorpaw.png"), auto;
-}
-
 #stack {
  
     width: 50px;
     margin-left: 5%;
-}
-
-#stack:hover {
-    cursor: url("../images/cursorpaw.png"), auto;
 }
 
 #copyright {
