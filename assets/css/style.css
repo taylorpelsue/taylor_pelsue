@@ -252,26 +252,13 @@ hr {
 /* end 2nd row of portfolio */
 
 /* external projects */
-#hangman {
+.iframes {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
     margin-bottom: 3%;
 }
 
-#rpg {
-   position: relative;
-    overflow: hidden;
-    padding-top: 56.25%; 
-    margin-bottom: 3%;
-}
-
-#trivia {
-    position: relative;
-     overflow: hidden;
-     padding-top: 56.25%; 
-     margin-bottom: 3%;
- }
 
 .iframe {
     position: absolute;

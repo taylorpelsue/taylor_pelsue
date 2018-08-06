@@ -40,4 +40,20 @@ $(document).ready(function () {
         }, 'slow');
 
     });
+        // For smooth scrolling
+        $("#toAPI").on('click', function (event) {
+
+            $('html, body').animate({
+                scrollTop: $("#apis").offset().top
+            }, 'slow');
+    
+        });
+            // For smooth scrolling
+    $("#toBamazon").on('click', function (event) {
+
+        $('html, body').animate({
+            scrollTop: $("#mysqlnode").offset().top
+        }, 'slow');
+
+    });
 });
