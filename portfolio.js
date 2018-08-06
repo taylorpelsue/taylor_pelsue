@@ -56,10 +56,13 @@ $(document).ready(function () {
         }, 'slow');
 
     });
+
+    $('#paw').click(function() {
+        $('#site').css({
+
+            'cursor': 'url(assets/images/cursorcat.png), auto',
+
+        });
+    });
 });
 
-// var img = document.getElementById('#li');
-
-// img.onmouseover = function () {
-//    this.src = '/assets/images/linkedinhover.png';
-// };
