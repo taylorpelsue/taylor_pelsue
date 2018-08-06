@@ -288,27 +288,25 @@ hr {
 }
 
 #contactIcons {
+   margin-top: 9%;
+   margin-left: 20%;
+}
+
+#li {
+
+    width: 51px;
+}
+
+#gh {
   
-    margin-left: 32.5vw;
-    margin-top: 6vh;
+    width: 51px;
+    margin-left: 10%;
+}
+
+#so {
  
-}
-
-#linkedin {
-
-    width: 50px;
-}
-
-#github {
-  
-    width: 50px;
-    margin-left: 5%;
-}
-
-#stack {
- 
-    width: 50px;
-    margin-left: 5%;
+    width: 51px;
+    margin-left: 10%;
 }
 
 #copyright {
