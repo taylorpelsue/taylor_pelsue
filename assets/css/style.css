@@ -24,14 +24,14 @@ html, body {
 }
 
 .btn-primary {
-    background-color: darkgreen;
-    border-color: darkgreen;
+    background-color: transparent;
+    border-color: white;
     color: white;
     font-family: Cinzel;
 }
 
 h1 {
-    font-size: 51px;
+    font-size: 285%;
     color: white;
     font-family: Cinzel;
 }
@@ -73,6 +73,7 @@ a:link {text-decoration: none; color: white;}
 .nav-link:hover {
     color: rgb(255, 0, 191);
 
+
 }
 
 .navbar-toggler {
@@ -110,14 +111,6 @@ a:link {text-decoration: none; color: white;}
 #arrowspng {
     margin-top: 3%;
 }
-/* 
-#name2 {
-    display: none;
-    float: left;
-    color: white;
-    text-align: center;
-    width: 400px;
-} */
 
 .navbar {
     background-color: rgb(2, 1, 14);
@@ -152,135 +145,63 @@ hr {
     font-family: Dancing Script;
 }
 
-/* #portfolio {
-    height: 91vh;
-} */
-
-.portfolio {
-    /* padding-left: 1%;
-    padding-right: 1%; */
-    overflow: hidden;
+#jquery {
+    background: url(../images/swords.png) no-repeat center center; 
     background-size: cover;
+    min-height: 80vh;
+}
+
+.portRight {
+    margin-left: 41vw;
+    margin-top: 22vh;
+    text-align: center;
+}
+
+h2 {
+    
+    text-align: center;
+    font-family: Cinzel;
+    color: white;
+    font-size: 350%;
+}
+
+.modalBtnR {
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    font-family: Cormorant;
+    color: white;
+    font-size: 150%;
+}
+
+.close {
+
+    width: 10%;
+    margin-left: 33vw;
+    margin-bottom: 0;
+}
+
+.modal-content {
+    font-family: Cormorant;
+    color: white;
+    font-size: 150%;
+    background-color: rgb(71, 71, 71);
+    border-style: solid;
+    border-color: aqua;
+    text-align: center;
+    border-width: 2px;
 
 }
 
-.portpics {
-    width: 45.5vw;
-    height: 45.5vh;
-    opacity: 0;
-}
-
-#bobs {
-    background-image: url("../images/bobsburgers.jpg");
-    background-repeat: no-repeat;
-    transition: 0.3s;
-}
-
-#bobs:hover {
-    background-image: url("../images/bobshover.jpg");
-}
-
-#toHangman {
-    opacity: 0;
-}
-
-#dbz {
-    background-image: url("../images/goku.jpg");
-    background-repeat: no-repeat;
-    transition: 0.3s;
-
-}
-
-#dbz:hover {
-    background-image: url("../images/gokuhover.jpg");
-}
-
-#toRPG {
-    opacity: 0;
-}
-
-#dory {
-    background-image: url("../images/dory.jpg");
-    background-repeat: no-repeat;
-    transition: 0.3s;
-}
-
-#dory:hover {
-    background-image: url("../images/doryhover.jpg");
-}
-
-#toTrivia {
-    opacity: 0;
-}
-
-/* second row in portfolio */
-.portfolio2 {
-    margin-top: 0;
-    margin-bottom: 3%;
-}
-
-#multiplayer {
-    background-image: url("../images/multiplayer.png");
-    background-repeat: no-repeat;
-    transition: 0.3s;
-}
-
-#multiplayer:hover {
-    background-image: url("../images/multiplayerhover.jpg");
-}
-
-#toRPS {
-    opacity: 0;
-}
-
-#gif {
-    background-image: url("../images/tyrion.gif");
-    background-repeat: no-repeat;
-    transition: 0.3s;
-}
-
-#gif:hover {
-    background-image: url("../images/tyrion.jpg");
-}
-
-#toAPI {
-    opacity: 0;
-}
-
-#node {
-    background-image: url("../images/cust.png");
-    background-repeat: no-repeat;
-    transition: 0.3s;
-}
-
-#node:hover {
-    background-image: url("../images/custhover.png");
-}
-
-#toBamazon {
-    opacity: 0;
-}
-
-/* end 2nd row of portfolio */
-
-/* external projects */
-.iframes {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-    margin-bottom: 3%;
+.modal-body {
+    margin-bottom: 5%;
 }
 
 
-.iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+.modalBtnR:hover{
+    background-color: rgb(3, 5, 119);
 }
-/* end external projects */
 
 #taylorProfile {
     width: 50%;
@@ -300,8 +221,8 @@ hr {
 }
 
 #contactIcons {
-   margin-top: 12%;
-   margin-left: 20%;
+   margin-top: 7vh;
+   text-align: center;
 }
 
 #li {
@@ -313,13 +234,13 @@ hr {
 #gh {
   
     width: 51px;
-    margin-left: 10%;
+    margin-left: 3vw;
 }
 
 #so {
  
     width: 51px;
-    margin-left: 10%;
+    margin-left: 3vw;
 }
 
 #copyright {

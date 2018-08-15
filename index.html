@@ -31,6 +31,9 @@
     <!-- Google Font: "Dancing Script"-->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 
+    <!-- Google Font: "Cormorant"-->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+
     <!-- Linking in JavaScript -->
     <script src="portfolio.js"></script>
 
@@ -39,7 +42,7 @@
 <body id="site">
     <div class="container-fluid" id="indexPic">
         <div class="row" id="indexBanner">
-            <!-- <div class="col-md-6"> -->
+            <!-- <div class="col-sm-6"> -->
 
             <!-- For Mobile Responsiveness -->
 
@@ -53,7 +56,7 @@
             <!-- End -->
 
             <!-- </div> -->
-            <div class="col-md-12">
+            <div class="col-sm-12">
                 <div id="name1">
 
                     <h1>Taylor Pelsue</h1>
@@ -110,91 +113,55 @@
 
         <div class="row">
 
-            <div class="col-md-4 portfolio" id="bobs">
-                <button class="btn btn-primary" id="toHangman" type="submit">
-                    <img class="portpics" id="bobs" src="assets/images/bobsburgers.jpg">
-                </button>
-            </div>
+            <div class="col-sm-12 portfolio" id="jquery">
+                <div class="portRight">
+                    <h2>JQuery</h2>
 
-            <div class="col-md-4 portfolio" id="dbz">
-                <button class="btn btn-primary" id="toRPG" type="submit">
-                    <img class="portpics" id="dbz" src="assets/images/goku.jpg">
-                </button>
-            </div>
 
-            <div class="col-md-4 portfolio" id="dory">
-                <button class="btn btn-primary" id="toTrivia" type="submit">
-                    <img class="portpics" id="dory" src="assets/images/dory.jpg">
-                </button>
-            </div>
-        </div>
-    </div>
+                    <!-- Button that triggers modal  -->
 
-    <div class="container-fluid" class="portfolio">
+                    <button type="button" class="btn btn-primary modalBtnR" data-toggle="modal" data-target="#jsModal">
+                        See More
+                    </button>
 
-        <div class="row">
-            <div class="col-md-4 portfolio" id="multiplayer">
-                <button class="btn btn-primary" id="toRPS" type="submit">
-                    <img class="portpics" id="multiplayer" src="assets/images/dory.jpg">
-                </button>
-            </div>
+                </div>
 
-            <div class="col-md-4 portfolio" id="gif">
-                <button class="btn btn-primary" id="toAPI" type="submit">
-                    <img class="portpics" id="gif" src="assets/images/tyrion.gif">
-                </button>
-            </div>
+                <!-- Modal -->
+                <div class="modal fade" id="jsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
 
-            <div class="col-md-4 portfolio" id="node">
-                <button class="btn btn-primary" id="toBamazon" type="submit">
-                    <img class="portpics" id="node" src="assets/images/cust.png">
-                </button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+
+                            <div class="modal-body">
+                                In this project, we were 
+                                encouraged <br>to use creativity, and heavily
+                                <br> rely on JQuery to build an RPG interface.
+                            </div>
+
+                            <button type="button" onclick="location.href='https://taylorpelsue.github.io/week-4-game/'">Go to Project</button>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End modal -->
+
             </div>
         </div>
-    </div>
-
-    <div id="hangman" class="iframes">
-
-        <iframe class="iframe" height="300px" width="100%" src="https://taylorpelsue.github.io/Hangman-Game/" name="iframe_a"></iframe>
-
-    </div>
-
-    <div id="rpg" class="iframes">
-
-        <iframe class="iframe" height="300px" width="100%" src="https://taylorpelsue.github.io/week-4-game/" name="iframe_a"></iframe>
-
-    </div>
-
-    <div id="trivia" class="iframes">
-
-        <iframe class="iframe" height="300px" width="100%" src="https://taylorpelsue.github.io/TriviaGame/" name="iframe_a"></iframe>
-
-    </div>
-
-    <div id="rps" class="iframes">
-
-        <iframe class="iframe" height="300px" width="100%" src="https://taylorpelsue.github.io/RPS-Multiplayer/" name="iframe_a"></iframe>
-
-    </div>
-
-    <div id="apis" class="iframes">
-
-        <iframe class="iframe" height="300px" width="100%" src="https://taylorpelsue.github.io/fun-with-api/" name="iframe_a"></iframe>
-
-    </div>
-
-    <div id="mysqlnode" class="iframes">
-
-        <iframe class="iframe" height="300px" width="100%" src="https://taylorpelsue.github.io/nodemysql/" name="iframe_a"></iframe>
-
     </div>
 
     <div class="container-fluid" id="about">
 
         <div class="row">
 
-            <div class="col-md-6" id="profile">
+            <div class="col-sm-6" id="profile">
                 <img id="taylorProfile" src="assets/images/profile.png">
+            </div>
+
+            <div class="col-sm-6" id="profileabout">
+
             </div>
         </div>
     </div>
@@ -203,12 +170,12 @@
 
         <div class="container">
             <div class="row">
+<!-- 
+                <div class="col-sm-4 placeholder">
 
-                <div class="col-md-4 placeholder">
+                </div> -->
 
-                </div>
-
-                <div class="col-md-4" id="icons">
+                <div class="col-sm-12" id="icons">
 
                     <div id="contactIcons">
 
@@ -227,9 +194,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 placeholder">
+                <!-- <div class="col-sm-4 placeholder">
 
-                </div>
+                </div> -->
             </div>
         </div>
 
