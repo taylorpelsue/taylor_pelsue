@@ -40,15 +40,15 @@ $(document).ready(function () {
         }, 'slow');
 
     });
-        // For smooth scrolling
-        $("#toAPI").on('click', function (event) {
+    // For smooth scrolling
+    $("#toAPI").on('click', function (event) {
 
-            $('html, body').animate({
-                scrollTop: $("#apis").offset().top
-            }, 'slow');
-    
-        });
-            // For smooth scrolling
+        $('html, body').animate({
+            scrollTop: $("#apis").offset().top
+        }, 'slow');
+
+    });
+    // For smooth scrolling
     $("#toBamazon").on('click', function (event) {
 
         $('html, body').animate({
@@ -57,12 +57,18 @@ $(document).ready(function () {
 
     });
 
-    $('#paw').click(function() {
-        $('#site').css({
+    $('#paw').click(function () {
+        // $('#site').toggleClass('cursorCat');
 
-            'cursor': 'url(assets/images/cursorcat.png), auto',
 
-        });
+        if ($('#site').hasClass('cursorCat')){
+            $('#site').removeClass('cursorCat');
+        } else {
+            $('#site').addClass('cursorCat');
+          }
+
+            // 'cursor': 'url(assets/images/cursorcat.png), auto';
+
     });
 });
 
