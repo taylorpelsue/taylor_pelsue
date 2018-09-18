@@ -58,17 +58,12 @@ $(document).ready(function () {
     });
 
     $('#paw').click(function () {
-        // $('#site').toggleClass('cursorCat');
-
 
         if ($('#site').hasClass('cursorCat')){
             $('#site').removeClass('cursorCat');
         } else {
             $('#site').addClass('cursorCat');
           }
-
-            // 'cursor': 'url(assets/images/cursorcat.png), auto';
-
     });
 });
 
